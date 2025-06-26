@@ -60,3 +60,11 @@
 8. Check Documentation:
    Refer to the official Prisma documentation for advanced usage and troubleshooting: https://www.prisma.io/docs
    /
+
+   ## Adding auth related models in schema.prisma
+
+   Refer below url:
+
+   https://authjs.dev/getting-started/adapters/prisma
+
+   Run prisma generate & migrate commands
