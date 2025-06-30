@@ -1,6 +1,6 @@
 'use server';
 
-import { covertToPlainObject } from '../utils';
+import { convertToPlainObject } from '../utils';
 import { LATEST_PRODUCTS_LIMIT } from '../constants';
 import { prisma } from '@/db/prisma';
 
@@ -12,7 +12,7 @@ export async function getLatestProducts() {
     },
     take: LATEST_PRODUCTS_LIMIT,
   });
-  return covertToPlainObject(data);
+  return convertToPlainObject(data);
 }
 
 // Get single product by it's slug
